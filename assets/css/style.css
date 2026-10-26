@@ -5325,3 +5325,11 @@ select:focus-visible,
 
   outline-offset: 3px;
 }
+
+/* =========================================================
+   NONAKTIFKAN MUSIC PLAYER SEMENTARA
+========================================================= */
+
+body.music-disabled #music-player {
+  display: none !important;
+}
